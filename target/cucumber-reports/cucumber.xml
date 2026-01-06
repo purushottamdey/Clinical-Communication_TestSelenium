@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="25.267" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-01-06T08:50:22.510113300Z">
+<testcase classname="User performs Hospital Management operations" name="Add hospital with valid details - #1.1" time="13.221">
+<system-out><![CDATA[
+Given user open chrome browser..............................................passed
+And user navigate to the Sign-in page.......................................passed
+And I enter username "admin@clinical.com"...................................passed
+And I enter password "Admin@123"............................................passed
+And I clicked on Sign In button.............................................passed
+And user navigate to the Hospital Management page...........................passed
+When I click on Add Hospital button.........................................passed
+And I enter hospital name "City General Hospital 1".........................passed
+And I enter address "MG Road"...............................................passed
+And I enter city "New York".................................................passed
+And I enter state "NY"......................................................passed
+And I enter zip "10001".....................................................passed
+And I enter phone number "15550100".........................................passed
+And I enter email "info@citygeneral.com"....................................passed
+And I click on Create button................................................passed
+Then hospital "City General Hospital 1" added successfully..................passed
+]]></system-out>
+</testcase>
+<testcase classname="User performs Hospital Management operations" name="Add hospital with valid details - #1.2" time="11.874">
+<system-out><![CDATA[
+Given user open chrome browser..............................................passed
+And user navigate to the Sign-in page.......................................passed
+And I enter username "admin@clinical.com"...................................passed
+And I enter password "Admin@123"............................................passed
+And I clicked on Sign In button.............................................passed
+And user navigate to the Hospital Management page...........................passed
+When I click on Add Hospital button.........................................passed
+And I enter hospital name "Apollo Hospital".................................passed
+And I enter address "Marine Dr".............................................passed
+And I enter city "Kochi"....................................................passed
+And I enter state "Kerala"..................................................passed
+And I enter zip "682016"....................................................passed
+And I enter phone number "9876543210".......................................passed
+And I enter email "info@apollohospital.com".................................passed
+And I click on Create button................................................passed
+Then hospital "Apollo Hospital" added successfully..........................passed
+]]></system-out>
+</testcase>
+</testsuite>
